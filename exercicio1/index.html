@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Company-Layout</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css"/>
+	</head>
+	<body>
+		<!--Container-->
+		<div class="container-princ">
+			<div class="container-logo">
+				<img src="images/logo.gif" id="logo"/>
+				<!--Login no webmail e painel de controle-->
+				<div class="controle">
+					<a href="#">Login-Webmail</a>
+					<a href="#">Painel de Controle</a>
+				</div>
+			</div>
+			<!--Menu do site-->
+			<nav>
+				<!--Links da direita-->
+				<div class="nav-left">
+					<a href="#">Home</a>
+					<a href="#">Hositing</a>
+					<a href="#">Nomes de domínios</a>
+					<a href="#">Ultimas noticias</a>
+					<a href="#">Sobre nós</a>
+					<a href="#">Entre em contato</a>	
+				</div>
+				<!--Links da esquerda-->
+				<div class="nav-right">
+					<a href="#" id="link-compras">Compras</a>
+					<a href="#">Ver cesta</a>	
+				</div>
+			</nav>
+			<!--Caixa de pesquisa e login-->
+			<div class="topbox">
+				<div class="pesquisa">
+					<form action="#" method="post">
+						<label class="pesquisa-label">Pesquise</label><br>
+						<input type="text"/>
+						<select>
+							<option value="all">(all)</option>
+							<option value="br">Brasil</option>
+							<option value="us">EUA</option>
+						</select>
+						<button type="submit">Pesquisar</button>
+					</form>	
+				</div>
+
+				<div class="login">
+
+					<label class="login-label">Login</label><br>
+					<form action>
+						<table>
+							<tr>
+								<td><label class="rotulo">Usuário:</label></td>
+								<td><input type="text" id="usuario"/></td>
+								<td class="btn-login"><button type="submit"/>Entrar</button></td>
+							</tr>
+							<tr>
+								<td><label class="rotulo">Senha:</label></td>
+								<td><input type="text" id="senha"/></td>
+								<td><a href="#">Esqueceu sua senha?</a></td>	
+							</tr>
+						</table>
+					</form>
+					
+				</div>
+			</div>
+			<!--Container das promoções-->
+			<div class="container-promo">
+				<div class="promo1">
+					<h2>Web Hosting</h2>
+					<div class="preco">
+						<h1>
+						<span class="apenas">Apenas</span><br>
+						R$6.99
+						</h1>	
+					</div>
+					
+					<ul>
+						<li>2 MB espaço</li>
+						<li>20 GB largura de banda</li>
+						<li>1.000 emails</li>
+						<li>10 MySQL BD</li>
+						<li>Construtor de página</li>
+						<li>Suporte livre</li>
+						<li>Painel de controle</li>
+					<ul><br>
+					<button type="button" >Compre Agora</button>
+					<button type="button" class="btn-info">Mais Informações</button>
+				</div>
+				<div class="promo2">
+					<h2>Domínios</h2>
+					<div class="preco">
+						<h1>
+							<span class="apenas">Apenas</span><br>
+							R$5.99
+						</h1>	
+					</div>
+					
+					<ul>
+						<li>2 MB espaço</li>
+						<li>20 GB largura de banda</li>
+						<li>1.000 emails</li>
+						<li>10 MySQL BD</li>
+						<li>Construtor de página</li>
+						<li>Suporte livre</li>
+						<li>Painel de controle</li>
+					<ul><br>
+					<button type="button">Compre Agora</button>
+					<button type="button" class="btn-info">Mais Informações</button>
+				</div>
+				<div class="promo3">
+					<h2>Add-Ons</h2>
+					<div class="preco">
+						<h1>
+							<span class="apenas">Apenas</span><br>
+							R$4.99
+						</h1>	
+					</div>
+					
+					<ul>
+						<li>2 MB espaço</li>
+						<li>20 GB largura de banda</li>
+						<li>1.000 emails</li>
+						<li>10 MySQL BD</li>
+						<li>Construtor de página</li>
+						<li>Suporte livre</li>
+						<li>Painel de controle</li>
+					<ul><br>
+					<button type="button">Compre Agora</button>
+					<button type="button" class="btn-info">Mais Informações</button>
+				</div>
+			</div>
+			<!--Notícias-->
+			<div class="noticias">
+				<div class="container-noticias-topo">
+					<h1>Últimas notícias</h1>
+					<div class="rss">
+						<a href="#">RSS</a>
+						<img src="images/icon_rss.png"/>
+					</div>	
+				</div>
+				
+				<div class="noticia1">
+					<a href="#">Últimas notícias 01</a>
+					<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Nulla sollicitudin neque ligula, vel efficitur nisi facilisis at. 
+					Quisque rhoncus varius pellentesque. Nullam quis ultrices justo. 
+					Ut rutrum diam nulla, non tincidunt diam dignissim iaculis.
+					</p>
+				</div>
+				<div class="noticia2">
+					<a href="#">Últimas notícias 02</a>
+					<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Nulla sollicitudin neque ligula, vel efficitur nisi facilisis at. 
+					Quisque rhoncus varius pellentesque. Nullam quis ultrices justo. 
+					Ut rutrum diam nulla, non tincidunt diam dignissim iaculis.
+					</p>
+				</div>
+				<div class="noticia3">
+					<a href="#">Últimas notícias 03</a>
+					<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Nulla sollicitudin neque ligula, vel efficitur nisi facilisis at. 
+					Quisque rhoncus varius pellentesque. Nullam quis ultrices justo. 
+					Ut rutrum diam nulla, non tincidunt diam dignissim iaculis.
+					</p>
+				</div>
+			</div>
+			<!--Citações dos clientes-->
+			<div class="clear"></div>
+			<div class="citacoes"></div>
+		</div>
+		<!--Rodapé da página-->
+		<footer>
+			Copyright &copy; 2017 <a href="#">Domain Name</a> - All Rights Reserved
+			<a href="#" id="info-rodape">Informações sobre o rodapé</a>
+		</footer>
+		
+	</body>
+</hmtl>

@@ -1,0 +1,134 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+body{
+	background: url("images/header_bg.gif") top repeat-x, url("images/footer_bg.gif") bottom repeat-x fixed;
+	font-family: "sans-serif";
+}
+/*.faixa-azul-escuro{
+	height: 120px;
+	width: 100%;
+	background-color: #1a3b5c;
+	position: absolute;
+	z-index: 0;
+}
+.faixa-azul-claro{
+	background-color: #12b3e1;
+	height: 50px;
+	width: 100%;
+	top: 120px;
+	z-index: 0;
+	position: absolute;
+}*/
+footer{
+
+}
+.container-nav{
+	margin: 0 auto;
+	width: 60%;
+}
+.titulo-site{
+	color: #e4e5e5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	align-content: center;
+}
+.titulo-site h1{
+	font-size: 36px;
+}
+.titulo-site span{
+	font-size: 10px;
+	margin-left: 10px;
+}
+.menu{
+	margin: 0 auto;
+	background-image: url("images/menu.gif");
+	height: 46px;
+	display: table;
+	width: 100%;
+	box-shadow: 0px 1px 0px 0px;
+}
+.items-menu{
+	display: table-cell;
+}
+.items-menu li{
+	list-style: none;
+	display: inline;
+	padding-left: 20px;
+}
+.container-busca{
+	display: table-cell;
+	padding-right: 10px;
+}
+.busca form{
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	margin-top: 5px;
+}
+.busca input[type="text"]{
+	background-color: transparent;
+	border: 0;
+	background-image: url("images/search.gif");
+	width: 209px;
+	height: 36px;
+	font-size: 25px;
+}
+.busca button[type="submit"]{
+	background-color: transparent;
+	border: 0;
+	background-image: url("images/search_btn.gif");
+	width: 39px;
+	height: 36px;
+	cursor: pointer;
+}
+.container-conteudo{
+	background-color: white;
+	width: 65%;
+	margin: 0 auto;
+	box-shadow: 0px 4px 0px 4px #e7e7e7;
+}
+.banner{
+	width: 100%;
+	padding: 7px;
+}
+.banner img{
+	width: 100%;
+}
+.conteudo-importante{
+	display: flex;
+	padding: 12px;
+	padding-bottom: 50px;
+}
+.conteudo-importante aside{
+	width: 30%;
+
+}
+.conteudo-importante li{
+	list-style-image: url("images/li.gif");
+	margin-left: 12px;
+
+}
+.conteudo-importante .materia{
+	/*background-color: yellow;*/
+	width: 70%;
+}
+.conteudo-importante .materia h1{
+	padding: 10px;
+}
+.conteudo-importante .materia span{
+	font-size: 12px;
+}
+.conteudo-importante .materia article img{
+	margin-right: 12px;
+}
+.conteudo-importante .materia article{
+	text-align: justify;
+	margin-right: 12px;
+}

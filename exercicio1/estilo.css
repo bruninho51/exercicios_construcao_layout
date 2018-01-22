@@ -1,0 +1,227 @@
+body{
+	background-color: #DCDCDC;
+	font-family: Arial;
+}
+button{
+	cursor: pointer;
+}
+
+.container-princ{
+	margin: 0 auto;
+	background-color: white;
+	width: 80%;
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+.controle{
+	float: right;
+	font-size: 13px;
+}
+.controle a{
+	color: #808080;
+}
+#logo{
+	padding-top: 15px;
+	padding-bottom: 17px;
+	padding-left: 10px;
+}
+nav{
+	background-image: url("images/bg_nav.png");
+	border-radius: 10px;
+	height: 30px;
+	padding-left: 12px;
+	vertical-align: -5px;
+	margin-bottom: 20px;
+}
+nav a{
+	color: white;
+	text-decoration: none;
+	vertical-align: -7px;
+	font-size: 13px;
+	padding-right: 12px;
+}
+#link-compras{
+	font-weight: bold;
+}
+
+.nav-left{
+	float: left;
+}
+.nav-right{
+	text-align: right;
+	padding-right: 10px;
+}
+.topbox{
+	background-image: url("images/bg_fptopbox.png");
+	height: 115px;
+	border-radius: 10px;
+	
+	padding-left: 30px;
+	
+}
+.login input[type="text"]{
+	width: 200px;
+	height: 20px;
+}
+.login{
+	color: white;
+	font-size: 12px;
+	padding-top: 10px;
+}
+.login a{
+	color: white;
+	font-weight: bold;
+}
+.rotulo{
+	font-size: 12px;
+}
+.btn-login{
+	text-align: left;
+}
+.pesquisa{
+	float: left;
+	margin-right: 25%;
+	margin-top: 30px;
+}
+.pesquisa-label{
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+.login-label{
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+.container-promo{
+	margin-top: 25px;
+	color: white;
+	display: table;
+}
+.apenas{
+	font-size: 12px;
+}
+.promo1{
+	background-image: url("images/bg_promo1.png");
+	height: 260px;
+	border-radius: 20px;
+	float: left;
+	width: 310px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+.promo1 ul{
+	font-size: 15px;
+	padding-bottom: 3px;
+	list-style-image: url("images/bullet.png");
+}
+.promo2 ul{
+	font-size: 15px;
+	padding-bottom: 3px;
+	list-style-image: url("images/bullet.png");
+}
+.promo3 ul{
+	font-size: 15px;
+	padding-bottom: 3px;
+	list-style-image: url("images/bullet.png");
+
+}
+.preco{
+	text-align: right;
+	height: 55px;
+}
+.btn-info{
+	float: right;
+}
+.promo1 h2{
+	float: left;
+}
+.promo2{
+	background-image: url("images/bg_promo2.png");
+	height: 260px;
+	border-radius: 20px;
+	float: left;
+	width: 310px;
+	margin-left: 23px;
+	margin-right: 23px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+.promo2 h2{
+	float: left;
+}
+.promo3{
+	background-image: url("images/bg_promo3.png");
+	height: 260px;
+	border-radius: 20px;
+	float: right;
+	width: 310px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+.promo3 h2{
+	float: left;
+}
+.noticias{
+	background-color: #DCDCDC;
+	border-radius: 20px;
+	padding: 10px;
+	padding-left: 20px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+.noticias h1{
+	color: #00008B;
+}
+
+.noticias p{
+	font-size: 14px;
+}
+.noticias h2{
+	font-size: 16px;
+}
+.noticias a{
+	color: #00008B;
+}
+.container-noticias-topo{
+	width: 100%;
+	display: table;
+}
+.container-noticias-topo h1{
+	float: left;
+}
+.rss{
+	text-align: right;
+	padding: 10px;
+}
+.rss a{
+	color: #808080;
+}
+footer{
+	margin: 0 auto;
+	width: 80%;
+	font-size: 12px;
+	color: #696969;
+}
+footer a{
+	color: #808080;
+}
+#info-rodape{
+	float: right;
+	text-align: right;
+}
+button{
+	border: 1px solid #000;
+	background-color: blue;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+}
+.clear{
+	clear: both;
+}
